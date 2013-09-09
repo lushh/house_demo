@@ -1,0 +1,468 @@
+/*公共部分*/
+body {
+    font-family: "微软雅黑","宋体","Arial Narrow";
+    background: url(about:blank) #128236;
+    _background-attachment:fixed;
+}
+
+a:link {
+    color: #666;
+}
+a:visited {color: #666;}
+a:hover {
+    color: #d11f13;
+}
+a:active {color: #666;}
+
+.mg0_5 {
+    margin: 0 4px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {*zoom:1;}
+
+/*topBar部分css*/
+
+.topBar {
+    height: 34px;
+    background: url(../pic/topBar_bg.png) repeat-x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop));
+}
+
+.topBarCon {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.leftTopCon {
+    float: left;
+    background: url(../pic/logo.png) no-repeat;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    height: 34px;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-left: 18px;
+    _margin-left:8px;
+}
+
+.leftTopCon:hover{
+    color: #d11f13;
+}
+
+.rightTopCon {
+    float: right;
+    margin-right: 35px;
+    _margin-right: 20px;
+}
+
+
+.rightTopCon li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+
+.rightTopCon li a:link{
+    color: #000;
+}
+
+.rightTopCon li a:visited{
+    color: #000;
+}
+
+.rightTopCon li a:hover{
+    color: #d11f13;
+}
+
+.rightTopCon li a:active{
+    color: #000;
+}
+
+.rightTopCon li a{
+    display: block;
+}
+
+/*ad部分*/
+
+.ad{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.ad img{
+    _display: block;
+}
+
+/*content部分*/
+.content{
+    border-top: 8px solid #004920;
+    background: url("../pic/content_bg.png") repeat-x scroll 0 0px transparent;
+    _background-position: 0 8px;
+}
+
+.contentCon{
+    width: 900px;
+    margin: 0 auto;
+    background: #d7e698;
+    padding: 40px 50px 43px;
+}
+
+.contentCon h2{
+    font-size: 22px;
+    color: #fdfadd;
+    background: url(../pic/content_h2_bg.gif) no-repeat;
+    display: block;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    width: 141px;
+}
+.contentCon ul{
+    margin-top: 30px;
+}
+.contentCon li{
+    padding-bottom: 15px;
+    padding-left: 24px;
+    background: url("../pic/content_li_bg.png") no-repeat scroll 0 3px transparent;
+    margin-top: -5px;
+}
+
+.contentCon li h4{
+    color: #00451e;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline;
+}
+
+.contentCon li p{
+    color: #007a35;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    line-height: 26px;
+    display: inline;
+}
+
+/*goods部分*/
+
+.goods{
+    background: url("../pic/goods__top_bg.gif") repeat-x scroll 0 0;
+    margin-top: -7px;
+}
+
+.seckillCommodity{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.seckillCommodity h2{
+    text-indent: -9999px;
+    background: url("../pic/seckillCommodity_title.png") no-repeat scroll center 0 transparent;
+    height: 46px;
+    position: relative;
+    top: 30px;
+}
+
+.seckill_olCon{
+    border-top: 7px solid #ffff6b;
+    position: relative;
+    top: 30px;
+}
+
+.seckill_olCon ol{
+
+    width: 880px;
+    margin: 0 auto;
+}
+
+.seckill_olCon ol li{
+    float: left;
+    padding-top: 60px;
+    padding-right: 125px;
+    text-align: center;
+    background: url("../pic/seckill_olCon_li_bg.png") no-repeat scroll 0 26px transparent;
+
+
+}
+
+.seckill_olCon ol li.seckillCommodity_ol_li_first{
+    background: url("../pic/seckill_olCon_li_bg_first.png") no-repeat scroll 58px 26px transparent;
+}
+
+.seckill_olCon ol li.seckillCommodity_ol_li_last{
+    padding-right: 0;
+    background: url("../pic/seckill_olCon_li_bg_last.png") no-repeat scroll 0 26px transparent;
+}
+
+.seckill_olCon ol li span{
+    font-size: 37px;
+    color: #fcd120;
+    font-weight: bold;
+}
+
+.seckill_olCon ol li h4{
+    color: #00451e;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.seckillCommodityGoodsList{
+    position: relative;
+    top: 50px;
+}
+
+.seckillCommodityGoodsList ul li{
+    float: left;
+    border: 1px solid #535353;
+    width: 243px;
+    height: 337px;
+    margin-right: 6px;
+    cursor: pointer;
+    background: none repeat scroll 0 0 #FFF5e5;
+}
+
+.seckillCommodityGoodsList ul li div{
+    padding: 8px 9px 0;
+    _padding:8px 9px 5px;
+}
+
+.seckillCommodityGoodsList ul li div img{
+    _display: block;
+}
+
+.seckillCommodityGoodsList ul li p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #128c67;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+
+
+.seckillCommodityGoodsList ul li span.price{
+    display: inline-block;
+    background: #b00705;
+    width: 152px;
+    height: 36px;
+    color: #fff;
+    float: left;
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+.seckillCommodityGoodsList ul li span.num{
+    display: inline-block;
+    background: #fcc222;
+    width: 75px;
+    height: 40px;
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.priceNow{
+   font-size: 30px;
+}
+
+.priceOld{
+   font-size: 12px;
+    text-decoration: line-through;
+}
+
+
+.peopleNums{
+    font-size: 18px;
+    color: #d51938;
+    font-weight: bold;
+}
+
+.remain{
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+/*groupPurchase部分*/
+.groupPurchase{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.groupPurchase h2{
+    text-indent: -9999px;
+    background: url("../pic/groupPurchase_title.png") no-repeat scroll center 0 transparent;
+    height: 46px;
+    position: relative;
+    top: 97px;
+}
+
+.groupPurchaseGoodsList{
+    position: relative;
+    top: 96px;
+    border-top: 7px solid #FFFF6B;
+    padding-top: 20px;
+}
+
+.groupPurchaseGoodsList ul li{
+    float: left;
+    border: 1px solid #535353;
+    width: 243px;
+    height: 337px;
+    margin-right: 6px;
+    cursor: pointer;
+    background: none repeat scroll 0 0 #FFF5e5;
+    margin-top: 6px;
+}
+
+.groupPurchaseGoodsList ul li div{
+    padding: 8px 9px 0;
+    _padding:8px 9px 5px;
+}
+
+.groupPurchaseGoodsList ul li div img{
+    display: block;
+}
+
+.groupPurchaseGoodsList ul li p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #128c67;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+
+
+.groupPurchaseGoodsList ul li span.price{
+    display: inline-block;
+    background: #b00705;
+    width: 152px;
+    height: 36px;
+    color: #fff;
+    float: left;
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+.groupPurchaseGoodsList ul li span.num{
+    display: inline-block;
+    background: #fcc222;
+    width: 75px;
+    height: 40px;
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+/**/
+.branding {
+    position: relative;
+    top: 157px;
+}
+.branding h2{
+    text-indent: -9999px;
+    background: url(../pic/branding_title.png) no-repeat scroll center -6px transparent;
+    height: 46px;
+
+}
+
+.brandingTitle{
+}
+
+
+.brandingBg{
+    background: url(../pic/footer_bg.png) repeat-x;
+    height: 450px;
+    _position: relative;
+}
+
+.brandingCon{
+    width: 1000px;
+    margin: 0 auto;
+    background: #d7e698;
+}
+
+.sawtoothCon{
+    background: url("../pic/sawtoothCon_bg.png") repeat-x scroll -4px 0 transparent;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 28px;
+    padding-botton: 28px;
+}
+
+.sawtoothCon ul{
+    _margin-bottom: 30px;
+}
+
+.brandingCon ul li{
+    float: left;
+    border: 1px solid #bcc885;
+    margin-bottom: 30px;
+    margin-right: 23px;
+}
+
+.sawtoothCon img{
+    float: left;
+}
+
+.footer{
+    width: 577px;
+    height: 113px;
+    margin: 54px auto 0;
+    margin-top: 53px;
+    text-align: center;
+    color: #00d25e;
+    _position: absolute;
+    _top: 260px;
+    _left:420px;
+}
+
+.footer ul{
+    margin: 18px auto;
+    width: 424px;
+}
+
+.footer li {
+    float: left;
+    text-align: center;
+}
+
+.footer li a:link{
+    color: #00d25e;
+}
+
+.footer li a:visited{
+    color: #00d25e;
+}
+
+.footer li a:hover{
+    color: #00d25e;
+}
+
+.footer li a:active{
+    color: #00d25e;
+}
+
+/*mask*/
+.nyroModal label{
+    text-align: right;
+}
+.nyroModal input{
+    width: 263px;
+    height: 34px;
+}
