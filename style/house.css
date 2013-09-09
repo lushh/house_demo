@@ -108,6 +108,31 @@ a:active {color: #666;}
     _display: block;
 }
 
+.time{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.time div{
+    background: url(../pic/time_bg.png) no-repeat;
+    height: 94px;
+    position: absolute;
+    width: 102px;
+}
+
+.hour{
+
+}
+
+.minute{
+
+}
+
+.second{
+
+}
+
 /*content部分*/
 .content{
     border-top: 8px solid #004920;

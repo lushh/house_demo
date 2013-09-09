@@ -4,9 +4,9 @@
     <list default="true" id="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" name="Default" comment="" />
     <ignored path="house_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/house_demo.html" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378720959815" ignored="false" />
-    <file path="/house.css" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378719356427" ignored="false" />
-    <file path="/dummy.xml" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378719041485" ignored="false" />
+    <file path="/house_demo.html" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378722811855" ignored="false" />
+    <file path="/house.css" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378722865464" ignored="false" />
+    <file path="/dummy.xml" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378722323351" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="house_demo.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="house_demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/house_demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5377129">
+            <state line="28" column="30" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-6.3333335">
               <folding>
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#div#1;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
@@ -49,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="house.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="house.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/house.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.72">
+            <state line="132" column="4" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.84821427">
               <folding>
-                <marker date="1378719357315" expanded="true" signature="657:697" placeholder="{...}" />
+                <marker date="1378722873035" expanded="true" signature="657:697" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,10 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/style/house.css" />
         <option value="$PROJECT_DIR$/js/jquery.blockUI.js" />
         <option value="$PROJECT_DIR$/js/house.js" />
         <option value="$PROJECT_DIR$/house_demo.html" />
+        <option value="$PROJECT_DIR$/style/house.css" />
       </list>
     </option>
   </component>
@@ -261,10 +261,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33020133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6706827" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6697987" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -365,7 +365,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="358" column="0" selection-start="6222" selection-end="6222" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378719357315" expanded="true" signature="657:697" placeholder="{...}" />
+            <marker date="1378722873035" expanded="true" signature="657:697" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -402,7 +402,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="191" column="20" selection-start="3070" selection-end="3070" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378719357315" expanded="true" signature="657:697" placeholder="{...}" />
+            <marker date="1378722873035" expanded="true" signature="657:697" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -441,18 +441,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/house.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.72">
-          <folding>
-            <marker date="1378719357315" expanded="true" signature="657:697" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house_demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5377129">
+        <state line="28" column="30" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-6.3333335">
           <folding>
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#div#1;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
@@ -467,6 +458,15 @@
             <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#2;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/house.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="4" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.84821427">
+          <folding>
+            <marker date="1378722873035" expanded="true" signature="657:697" placeholder="{...}" />
           </folding>
         </state>
       </provider>
