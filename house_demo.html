@@ -8,9 +8,19 @@
     <meta name="description" content="映象网（http://www.hnr.cn）--河南地区新闻门户网站，由河南省广播电影电视局主管，河南人民广播电台主办。目前已经开通新闻、财经、娱乐、电影、旅游、女性、健康、教育、读书、互动等频道。" />
     <link rel="stylesheet" href="style/reset.css"/>
     <link rel="stylesheet" href="style/house.css"/>
+    <!--[if IE 8]>
+        <style type="text/css">
+             .alpha80{
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)";
+             }
+        </style>
+    <![endif]-->
 
 </head>
 <body>
+<div class="mask alpha80">
+    &nbsp
+</div>
     <div class="topBar">
         <div class="topBarCon clearfix">
             <a href="#" class="leftTopCon">映象家居</a>
@@ -83,7 +93,7 @@
                                 <p>潜水艇全铜防臭地漏套餐 2只普通地漏+1只洗衣机地漏 赠送洗衣机专…</p>
                             </div>
                             <span class="price">
-                                <span class="priceNow">￥168</span>
+                                <span class="priceNow">￥169</span>
                                 <span class="priceOld">￥596.00</span>
                             </span>
                             <span class="num">
@@ -359,14 +369,17 @@
             </div>
         </div>
     </div>
-<!--    <div class="nyroModal">
-        <form action="">
-            <label for="goodsId">商品名称型号</label><input type="text" id="goodsId"/>
-            <label for="goodsPrice">价格</label><input type="text" id="goodsPrice"/>
-            <label for="name">姓名</label><input type="text" id="name"/>
-            <label for="phone">电话号码</label><input type="text" id="phone"/>
-        </form>
-    </div>-->
+<div class="modal">
+    <img src="pic/modal_close.png" alt="关闭" class="close"/>
+    <form action="">
+        <p class="clearfix"><label for="goodsId">商品名称型号</label><input type="text" id="goodsId"/></p>
+        <p class="clearfix"><label for="goodsPrice">价格</label><input type="text" id="goodsPrice"/></p>
+        <p class="clearfix"><label for="name">姓名</label><input type="text" id="name"/></p>
+        <p class="clearfix"><label for="phone">电话号码</label><input type="text" id="phone"/></p>
+        <input type="submit" value="抢购" class="buySubmit"/>
+    </form>
+
+</div>
 </body>
 <script type="text/javascript" src="http://www.hnr.cn/hnr/v/js/jquery-1.7.min.js"></script>
 
