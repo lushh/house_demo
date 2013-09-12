@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/house.css" afterPath="$PROJECT_DIR$/style/house.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/house.js" afterPath="$PROJECT_DIR$/js/house.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/house_demo.html" afterPath="$PROJECT_DIR$/house_demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" name="Default" comment="" />
     <ignored path="house_demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/house_demo.html" changelist="f384ea03-d188-49a0-9c2b-1c05d4a35cd6" time="1378777955970" ignored="false" />
@@ -38,7 +31,7 @@
       <file leaf-file-name="house_demo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/house_demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.70487803">
+            <state line="19" column="49" selection-start="947" selection-end="947" vertical-scroll-proportion="0.33740458">
               <folding>
                 <element signature="tag#div#2;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
                 <marker date="1378778041460" expanded="true" signature="736:913" placeholder="..." />
@@ -51,9 +44,13 @@
       <file leaf-file-name="house.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/house.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="575" column="17" selection-start="9779" selection-end="9779" vertical-scroll-proportion="-14.8">
+            <state line="578" column="17" selection-start="9923" selection-end="9923" vertical-scroll-proportion="-14.8">
               <folding>
-                <marker date="1378780112546" expanded="true" signature="2372:2412" placeholder="{...}" />
+                <marker date="1378781019171" expanded="true" signature="506:614" placeholder="{...}" />
+                <marker date="1378781019171" expanded="true" signature="665:860" placeholder="{...}" />
+                <marker date="1378781019171" expanded="true" signature="902:1197" placeholder="{...}" />
+                <marker date="1378781019171" expanded="true" signature="1818:2115" placeholder="{...}" />
+                <marker date="1378781019171" expanded="true" signature="2516:2556" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -211,6 +208,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Health_Channel" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -285,7 +283,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17501764" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
@@ -379,7 +377,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="4" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378780112546" expanded="true" signature="2372:2412" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="506:614" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="665:860" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="902:1197" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="1818:2115" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="2516:2556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -406,7 +408,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="358" column="0" selection-start="6222" selection-end="6222" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378780112546" expanded="true" signature="2372:2412" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="506:614" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="665:860" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="902:1197" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="1818:2115" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="2516:2556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -433,7 +439,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="191" column="20" selection-start="3070" selection-end="3070" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378780112546" expanded="true" signature="2372:2412" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="506:614" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="665:860" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="902:1197" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="1818:2115" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="2516:2556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -470,16 +480,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/house.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="575" column="17" selection-start="9779" selection-end="9779" vertical-scroll-proportion="-14.8">
+        <state line="578" column="17" selection-start="9923" selection-end="9923" vertical-scroll-proportion="-14.8">
           <folding>
-            <marker date="1378780112546" expanded="true" signature="2372:2412" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="506:614" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="665:860" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="902:1197" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="1818:2115" placeholder="{...}" />
+            <marker date="1378781019171" expanded="true" signature="2516:2556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/house_demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.70487803">
+        <state line="19" column="49" selection-start="947" selection-end="947" vertical-scroll-proportion="0.33740458">
           <folding>
             <element signature="tag#div#2;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
             <marker date="1378778041460" expanded="true" signature="736:913" placeholder="..." />

@@ -3,6 +3,8 @@ body {
     font-family: "微软雅黑","宋体","Arial Narrow";
     background: url(about:blank) #128236;
     _background-attachment:fixed;
+    _position: relative;
+    _overflow: hidden;
 }
 
 a:link {
@@ -31,11 +33,12 @@ a:active {color: #666;}
 .mask{
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 2000;
     display: none;
-    _height:expression(document.body.clientHeight+120);
-    _top:34px;
+    *top:34px;
+    _position: absolute;
+    _top:expression(eval(document.documentElement.scrollTop+34));
 }
 
 .alpha80 {
@@ -59,8 +62,9 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endC
     margin-left: -235px;
     background: #fff;
     display: none;
-    _position: absolute;
+    _position:absolute;
     _top:expression(eval(document.documentElement.scrollTop+150));
+
 }
 
 .modal form{
