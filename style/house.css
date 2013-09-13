@@ -241,17 +241,17 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endC
 
 .hour{
     left: 767px;
-
+    _left:773px;
 }
 
 .minute{
     left: 897px;
-
+    _left:903px;
 }
 
 .second{
     left: 1029px;
-
+    _left:1035px;
 }
 
 /*content部分*/
@@ -536,6 +536,7 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endC
     background: url(../pic/footer_bg.png) repeat-x;
     height: 450px;
     _position: relative;
+    _height: 600px;
 }
 
 .brandingCon{
